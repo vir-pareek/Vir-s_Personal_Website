@@ -1,0 +1,188 @@
+/* General Styles */
+html{
+    background-color: #002D62;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #002D62;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+#navbar-example2{
+    background-color: #002D62;
+}
+.navbar .navbar-brand, .nav-link .bg-body-tertiary .px-3 .mb-3 .p-3 .rounded-2{
+    background-color: #002D62;
+    color: #6CB4EE;
+}
+/* Header Section */
+.card_header {
+    background-color: #6CB4EE;
+    color: #002D62;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.card-body-header p {
+    margin: 0;
+}
+
+/* Introduction Card */
+.card-intro {
+    background-color:#6CB4EE;
+    color: #002D62;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;  /* Full width */
+}
+
+.card-intro .card-body-intro {
+    text-align: justify;
+    max-width: 1200px; 
+    margin: 1rem auto;   
+}
+
+.card-img-top {
+    border-radius: 20%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: inline flex;
+    margin: 0 auto 1rem auto;
+    float: left;
+}
+
+.card-intro-text {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Achievements Section */
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+    padding: 0 2rem;
+    background-color: #002D62;
+}
+
+.card {
+    background-color: #6CB4EE;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+.card-header{
+    color:#002D62;
+}
+
+.achievements .card-img-top {
+    width: 100%; /* Full width inside card */
+    height: 18rem; /* Same height as width for square */
+    object-fit: cover;
+    border-radius: 0; /* Remove rounded corners */
+}
+
+/* Project Section */
+.card.text-center {
+    margin: 2rem auto;
+    background-color: #6CB4EE;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.card-header {
+    background-color: #6CB4EE; 
+    color: white;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-title {
+    color: #002D62;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card a.btn {
+    background-color: #002D62;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card a.btn:hover {
+    background-color: #002D62;
+}
+.card_footer{
+    background-color: #002D62;
+    color: #6CB4EE;
+    text-align: center;
+}
+.container{
+    background-color: #002D62;
+}
+.container>*{
+    background-color: #002D62;
+}
+.nav{
+    background-color: #002D62;
+    color: #6CB4EE;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .achievements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .card-intro {
+        padding: 1.5rem;
+    }
+
+    .card-intro .card-body-intro {
+        max-width: 90%; /* Slight padding on small screens */
+    }
+
+    .card-intro-text {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        width: 120px;
+        height: 120px;
+    }
+    
+}
+
